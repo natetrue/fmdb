@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3354379C19E71096005661F3 /* FMResultSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3354379B19E71096005661F3 /* FMResultSetTests.m */; };
+		506AEB141BC47AF2004D6479 /* FMDB.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8314AF3218CD73D600EC0E25 /* FMDB.h */; };
+		506AEB151BC47AF2004D6479 /* FMDatabase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CCC24EBA0A13E34D00A6D3E3 /* FMDatabase.h */; };
+		506AEB161BC47AF2004D6479 /* FMResultSet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CCC24EBF0A13E34D00A6D3E3 /* FMResultSet.h */; };
+		506AEB171BC47AF2004D6479 /* FMDatabaseQueue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC47A00D148581E9002CCDAB /* FMDatabaseQueue.h */; };
+		506AEB181BC47B2A004D6479 /* FMDatabaseAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC50F2CC0DF9183600E4AAAE /* FMDatabaseAdditions.h */; };
+		506AEB191BC47B2D004D6479 /* FMDatabasePool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC9E4EB713B31188005F9210 /* FMDatabasePool.h */; };
 		621721B21892BFE30006691F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC24EBB0A13E34D00A6D3E3 /* FMDatabase.m */; };
 		621721B31892BFE30006691F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC24EC00A13E34D00A6D3E3 /* FMResultSet.m */; };
 		621721B41892BFE30006691F /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CC47A00E148581E9002CCDAB /* FMDatabaseQueue.m */; };
@@ -72,6 +78,12 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				506AEB141BC47AF2004D6479 /* FMDB.h in CopyFiles */,
+				506AEB151BC47AF2004D6479 /* FMDatabase.h in CopyFiles */,
+				506AEB161BC47AF2004D6479 /* FMResultSet.h in CopyFiles */,
+				506AEB171BC47AF2004D6479 /* FMDatabaseQueue.h in CopyFiles */,
+				506AEB181BC47B2A004D6479 /* FMDatabaseAdditions.h in CopyFiles */,
+				506AEB191BC47B2D004D6479 /* FMDatabasePool.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
